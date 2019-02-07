@@ -1,0 +1,27 @@
+.header {
+    background-color: whitesmoke;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    margin-bottom: 50px;
+}
+
+.header a {
+    color: #4a4a4a;
+}
+
+.logo {
+    flex: 4;
+    margin-left: 10px;
+}
+
+.nav-links {
+    flex: 2;
+}
+
+.nav-links a {
+    margin-right: 50px;
+}
