@@ -19,7 +19,7 @@ class Home extends Component {
                             I enjoy building application/systems including web, mobile and native desktop.
                         </p>
                         <p className="brief-desc">
-                            Check my projects here on <a href="https://github.com/tobi-stephen/">Github</a>
+                            Check my projects here on <a href="https://github.com/tobi-stephen/">Github</a> and my resume <a href="https://docs.google.com/document/d/137LA_PFQoCzZ9yW_fPeNuo80K7X6apr0rvQMvP2_eNk/edit?usp=sharing">here</a>
                         </p>
                     </div>
                 </div>
