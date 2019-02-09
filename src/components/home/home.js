@@ -12,7 +12,7 @@ class Home extends Component {
                     <img src={home} className="home-logo" alt="home-graphic"/>
                     <div className="desc">
                         <h1 className="header-desc">
-                            Hello, I'm Tobi. I'm a Software Engineer, Electrical Engineer, & lover of Music especially by D'banj.
+                            Hello, I'm Tobi. I'm a Software Engineer, Electrical Engineer, & lover of Music.
                         </h1>
                         <p className="brief-desc">
                             I am interested in machine learning and computer vision. 
