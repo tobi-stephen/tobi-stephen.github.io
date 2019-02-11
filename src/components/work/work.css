@@ -1,11 +1,11 @@
 .work {
     margin: 0 30%;
-    /* align-items: center; */
     align-content: center;
     align-self: center;
     display: flex;
-    /* display: inline-flex; */
     flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .work-duration {
@@ -15,7 +15,7 @@
 
 .work-header {
     margin:0px;
-    line-height: 0.8;
+    line-height: 0.9;
 }
 
 .work-content h2 {
@@ -27,7 +27,4 @@
 .work-divider {
     border-color: #f7c0ab;
     width: 40vmax;
-    /* align-content: center; */
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
