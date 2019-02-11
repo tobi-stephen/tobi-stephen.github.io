@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../header/header';
 import home from "../../assets/home-v.png";
+import { Link } from "react-router-dom";
 import './home.css';
 
 class Home extends Component {
@@ -18,8 +19,11 @@ class Home extends Component {
                             I am interested in machine learning and computer vision. 
                             I enjoy building application/systems including web, mobile and native desktop.
                         </p>
+                        <p>
+                            
+                        </p>
                         <p className="brief-desc">
-                            Check my projects here on <a href="https://github.com/tobi-stephen/">Github</a> and my resume <a href="https://docs.google.com/document/d/137LA_PFQoCzZ9yW_fPeNuo80K7X6apr0rvQMvP2_eNk/edit?usp=sharing">here</a>
+                            Check my projects <Link to={"/work"}>here</Link> and on <a href="https://github.com/tobi-stephen/">Github</a> and my resume <a href="https://bit.ly/2DqK9UW">here</a>
                         </p>
                     </div>
                 </div>

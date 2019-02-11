@@ -1,0 +1,33 @@
+.work {
+    margin: 0 30%;
+    /* align-items: center; */
+    align-content: center;
+    align-self: center;
+    display: flex;
+    /* display: inline-flex; */
+    flex-direction: column;
+}
+
+.work-duration {
+    color: rgb(155, 155, 155);
+
+}
+
+.work-header {
+    margin:0px;
+    line-height: 0.6;
+}
+
+.work-content h2 {
+    color: #f7c0ab;
+    font-weight: 300;
+    line-height: 0.6;
+}
+
+.work-divider {
+    border-color: #f7c0ab;
+    width: 40vmax;
+    /* align-content: center; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

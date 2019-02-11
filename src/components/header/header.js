@@ -14,7 +14,7 @@ class Header extends Component {
                 </div>
                 <div className="nav-links">
                     <Link to={"/"}>home</Link>
-                    {/* <Link to={"/work"}>work</Link> */}
+                    <Link to={"/work"}>work</Link>
                     {/* <Link to={"/about"}>about</Link> */}
                 </div>
             </div>
