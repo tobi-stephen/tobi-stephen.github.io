@@ -23,7 +23,7 @@ class Home extends Component {
                             
                         </p>
                         <p className="brief-desc">
-                            Check my projects <Link to={"/work"}>here</Link> and on <a href="https://github.com/tobi-stephen/">Github</a> and my resume <a href="https://bit.ly/2DqK9UW">here</a>
+                            Check my projects <Link to={"/work"}>here</Link> and on <a href="https://github.com/tobi-stephen/" target="blank">Github</a> and my resume <a href="https://bit.ly/2E6F1a7" target="blank">here</a>
                         </p>
                     </div>
                 </div>

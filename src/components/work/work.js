@@ -76,7 +76,7 @@ class Work extends Component {
                             <h2>Technology</h2>
                             <p>Wordpress CMS</p>
                             <h2>Goal</h2>
-                            <p>Create a platform for recipes sharing and online learning</p>
+                            <p>Create a platform for recipes sharing and cooking lessons</p>
                             <a className="work-link" href="https://ifyskitchen.com" target="blank">Check it out</a>
                         </div>
                     </div>
@@ -96,6 +96,40 @@ class Work extends Component {
                             <a className="work-link" href="https://iqubesdp.com" target="blank">Check it out</a>
                         </div>
                     </div>
+
+                    <hr className="work-divider"/>
+
+                    <div className="work">
+                        <div className="work-img"></div>
+                        <div className="work-content">
+                            <h1 className="work-header">Flower Classifier</h1>
+                            <p className="work-duration">2018</p>
+                            <h2>Technology</h2>
+                            <p>Python, PyTorch, Jupyter, OpenCV, Numpy</p>
+                            <h2>Goal</h2>
+                            <p>a project for classifying various types of flowers through deep learning as part of the PyTorch Scholarship Challenge from Facebook</p>
+                            <p>Constructed a model based off of DenseNet121 and attained over 90% accuracy on test set.</p>
+                            <a className="work-link" href="https://github.com/tobi-stephen/flower-classifier" target="blank">Check it out</a>
+                        </div>
+                    </div>
+
+                    <hr className="work-divider"/>
+
+                    <div className="work">
+                        <div className="work-img"></div>
+                        <div className="work-content">
+                            <h1 className="work-header">Convolutional Neural Network for Visual Recognition(CS231n)</h1>
+                            <p className="work-duration">2018</p>
+                            <h2>Technology</h2>
+                            <p>Python, PyTorch, Jupyter, OpenCV, MatPlotLib Numpy</p>
+                            <h2>Goal</h2>
+                            <p>A course from Stanford University led by Computer Vision Expert Fei Fei Li</p>
+                            <p>Worked on several implementation of various neural network models in the assignments notebooks</p>
+                            <p>Including artificial neural network to convolutional neural network, Recurrent Neural Network, Long Short Term Memory, Style Transfer</p>
+                            <a className="work-link" href="https://github.com/tobi-stephen/cs231n-stanford" target="blank">Check it out</a>
+                        </div>
+                    </div>
+                
                 
             </div>
         )
