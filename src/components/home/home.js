@@ -16,14 +16,14 @@ class Home extends Component {
                             Hello, I'm Tobi. I'm a Software Engineer, Electrical Engineer, & lover of Music.
                         </h1>
                         <p className="brief-desc">
-                            I am interested in machine learning and computer vision. 
-                            I enjoy building application/systems including web, mobile and native desktop.
+                            I am interested in providing solutions with software. 
+                            I enjoy building application/systems that brings about positive impact.
                         </p>
                         <p>
                             
                         </p>
                         <p className="brief-desc">
-                            Check my projects <Link to={"/work"}>here</Link> and on <a href="https://github.com/tobi-stephen/" target="blank">Github</a> and my resume <a href="https://bit.ly/2E6F1a7" target="blank">here</a>
+                            Check out some of my projects <Link to={"/work"}>here</Link> and on <a href="https://github.com/tobi-stephen/" target="blank">Github</a> and my resume <a href="https://bit.ly/2E6F1a7" target="blank">here</a>
                         </p>
                     </div>
                 </div>

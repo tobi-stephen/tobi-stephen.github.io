@@ -7,17 +7,51 @@ class Work extends Component {
         return(
             <div>
                 <Header/>
-                
+
                     <div className="work">
                         <div className="work-img"></div>
                         <div className="work-content">
-                            <h1 className="work-header">GRIT Transactive Grid - Web</h1>
-                            <p className="work-duration">2018-present</p>
+                            <h1 className="work-header">Road condition Sensing</h1>
+                            <p className="work-duration">2020</p>
                             <h2>Technology</h2>
-                            <p>ReactJS, MaterialUI</p>
+                            <p>React Native, Android</p>
                             <h2>Goal</h2>
-                            <p>Create a platform for buying and selling of energy among users of the GRIT smart meters.</p>
-                            <a className="work-link" href="https://gtg.grit.systems" target="blank">Check it out</a>
+                            <p>Project utilizing android sensors to detect road conditions</p>
+                            <p>Created a demo application that uses the combination of accelerometer and gyrometer of an android device to detect different road conditions(Potholes, bumps, etc)</p>
+                            <a className="work-link" href="https://github.com/tobi-stephen/road_condition_sensing" target="blank">Check it out</a>
+                        </div>
+                    </div>
+
+                    <hr className="work-divider"/>
+
+                    <div className="work">
+                        <div className="work-img"></div>
+                        <div className="work-content">
+                            <h1 className="work-header">Flower Classifier</h1>
+                            <p className="work-duration">2018</p>
+                            <h2>Technology</h2>
+                            <p>Python, PyTorch, Jupyter, OpenCV, Numpy</p>
+                            <h2>Goal</h2>
+                            <p>a project for classifying various types of flowers through deep learning as part of the PyTorch Scholarship Challenge from Facebook</p>
+                            <p>Constructed a model based off of DenseNet121 and attained over 90% accuracy on test set.</p>
+                            <a className="work-link" href="https://github.com/tobi-stephen/flower-classifier" target="blank">Check it out</a>
+                        </div>
+                    </div>
+
+                    <hr className="work-divider"/>
+
+                    <div className="work">
+                        <div className="work-img"></div>
+                        <div className="work-content">
+                            <h1 className="work-header">Convolutional Neural Network for Visual Recognition(CS231n)</h1>
+                            <p className="work-duration">2018</p>
+                            <h2>Technology</h2>
+                            <p>Python, PyTorch, Jupyter, OpenCV, MatPlotLib Numpy</p>
+                            <h2>Goal</h2>
+                            <p>A course from Stanford University led by Computer Vision Expert Fei Fei Li</p>
+                            <p>Worked on several implementation of various neural network models in the assignments notebooks</p>
+                            <p>Including artificial neural network to convolutional neural network, Recurrent Neural Network, Long Short Term Memory, Style Transfer</p>
+                            <a className="work-link" href="https://github.com/tobi-stephen/cs231n-stanford" target="blank">Check it out</a>
                         </div>
                     </div>
 
@@ -81,56 +115,6 @@ class Work extends Component {
                         </div>
                     </div>
 
-                    <hr className="work-divider"/>
-
-                    <div className="work">
-                        <div className="work-img"></div>
-                        <div className="work-content">
-                            <h1 className="work-header">iQube SDP</h1>
-                            <p className="work-duration">2016-2018</p>
-                            <h2>Technology</h2>
-                            <p>Wordpress CMS</p>
-                            <h2>Goal</h2>
-                            <p>Create a platform for technology skill development</p>
-                            <p>Participated as a mentor in tracks (Python, C++, SQL, Linux Server Admin)</p>
-                            <a className="work-link" href="https://iqubesdp.com" target="blank">Check it out</a>
-                        </div>
-                    </div>
-
-                    <hr className="work-divider"/>
-
-                    <div className="work">
-                        <div className="work-img"></div>
-                        <div className="work-content">
-                            <h1 className="work-header">Flower Classifier</h1>
-                            <p className="work-duration">2018</p>
-                            <h2>Technology</h2>
-                            <p>Python, PyTorch, Jupyter, OpenCV, Numpy</p>
-                            <h2>Goal</h2>
-                            <p>a project for classifying various types of flowers through deep learning as part of the PyTorch Scholarship Challenge from Facebook</p>
-                            <p>Constructed a model based off of DenseNet121 and attained over 90% accuracy on test set.</p>
-                            <a className="work-link" href="https://github.com/tobi-stephen/flower-classifier" target="blank">Check it out</a>
-                        </div>
-                    </div>
-
-                    <hr className="work-divider"/>
-
-                    <div className="work">
-                        <div className="work-img"></div>
-                        <div className="work-content">
-                            <h1 className="work-header">Convolutional Neural Network for Visual Recognition(CS231n)</h1>
-                            <p className="work-duration">2018</p>
-                            <h2>Technology</h2>
-                            <p>Python, PyTorch, Jupyter, OpenCV, MatPlotLib Numpy</p>
-                            <h2>Goal</h2>
-                            <p>A course from Stanford University led by Computer Vision Expert Fei Fei Li</p>
-                            <p>Worked on several implementation of various neural network models in the assignments notebooks</p>
-                            <p>Including artificial neural network to convolutional neural network, Recurrent Neural Network, Long Short Term Memory, Style Transfer</p>
-                            <a className="work-link" href="https://github.com/tobi-stephen/cs231n-stanford" target="blank">Check it out</a>
-                        </div>
-                    </div>
-                
-                
             </div>
         )
     }
