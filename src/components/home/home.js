@@ -13,11 +13,14 @@ class Home extends Component {
                     <img src={home} className="home-logo" alt="home-graphic"/>
                     <div className="desc">
                         <h1 className="header-desc">
-                            Hello, I'm Tobi. I'm a Software Engineer, Electrical Engineer, & lover of Music.
+                            Hello, I'm Tobi. I'm a Software Engineer and a Music Lover.
                         </h1>
                         <p className="brief-desc">
-                            I am interested in providing solutions with software. 
-                            I enjoy building application/systems that brings about positive impact.
+                            I enjoy building application and systems that brings about positive impact.
+                            I am experienced with delivering solutions with various software technology.
+                        </p>
+                        <p className="brief-desc">
+                            Technology stacks include Python/Flask, Java/SpringBoot, C++/WinRT, <a href="https://kafka.apache.org/" target="blank">Apache Kafka</a>, Docker and Kubernetes.
                         </p>
                         <p>
                             

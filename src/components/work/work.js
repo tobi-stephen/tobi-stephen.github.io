@@ -11,6 +11,85 @@ class Work extends Component {
                     <div className="work">
                         <div className="work-img"></div>
                         <div className="work-content">
+                            <h1 className="work-header">Event Streamer</h1>
+                            <p className="work-duration">2024</p>
+                            <h2>Technology</h2>
+                            <p>Python, Flask, Kafka, MongoDB, ElasticSearch, Docker, Kubernetes</p>
+                            <h2>Goal</h2>
+                            <p>Event-driven microservice workflow with a publisher and subscriber services.</p>
+                            <p>Developed a flask app to showcase workflow for proof of concept event-driven system and modern application packaging.</p>
+                            <a className="work-link" href="https://github.com/tobi-stephen/event-streamer" target="blank">Check it out</a>
+                        </div>
+                    </div>
+
+                    <hr className="work-divider"/>
+
+                    <div className="work">
+                        <div className="work-img"></div>
+                        <div className="work-content">
+                            <h1 className="work-header">Real-time Inventory Aggregator</h1>
+                            <p className="work-duration">2024</p>
+                            <h2>Technology</h2>
+                            <p>Apache Kafka, Kafka Connect, KSQLDB, Docker, ElasticSearch, Kibana</p>
+                            <h2>Goal</h2>
+                            <p>Implemented a data pipeline for aggregating pharmacy inventory systems into a common store in order to improve response times for HMOs.</p>
+                            <p>The pipeline aggregates inventory from different data stores including MySQL and MongoDB and indexes it into an elasticsearch instance.</p>
+                            <a className="work-link" href="https://github.com/tobi-stephen/inventory-aggregator-with-kafka" target="blank">Check it out</a>
+                        </div>
+                    </div>
+
+                    <hr className="work-divider"/>
+
+                    <div className="work">
+                        <div className="work-img"></div>
+                        <div className="work-content">
+                            <h1 className="work-header">Medication Dispatch using Drones</h1>
+                            <p className="work-duration">2022</p>
+                            <h2>Technology</h2>
+                            <p>Java, Spring Boot, H2 Database</p>
+                            <h2>Goal</h2>
+                            <p>Developed a web service to manage abstract medication dispatch with abstract drones.</p>
+                            <a className="work-link" href="https://github.com/tobi-stephen/drone-medication-dispatch" target="blank">Check it out</a>
+                        </div>
+                    </div>
+
+                    <hr className="work-divider"/>
+
+                    <div className="work">
+                        <div className="work-img"></div>
+                        <div className="work-content">
+                            <h1 className="work-header">Retrieval Augmentation Generation(RAG) System</h1>
+                            <p className="work-duration">2024</p>
+                            <h2>Technology</h2>
+                            <p>Python, Kafka, ElasticSearch, OpenAI</p>
+                            <h2>Goal</h2>
+                            <p>Implemented a project which integrates a Retrieval-Augmented-Generation(RAG) AI system with real-time data augmentation.</p>
+                            <p>The system works to improve and customize user prompts with semantic search results added before being passed to an LLM.</p>
+                            <a className="work-link" href="https://github.com/tobi-stephen/RAG-with-kafka-and-elastic-search" target="blank">Check it out</a>
+                        </div>
+                    </div>
+
+                    <hr className="work-divider"/>
+
+                    <div className="work">
+                        <div className="work-img"></div>
+                        <div className="work-content">
+                            <h1 className="work-header">Chatbot Assistant</h1>
+                            <p className="work-duration">2024</p>
+                            <h2>Technology</h2>
+                            <p>Python, Flask, OpenAI, LangChain, Docker</p>
+                            <h2>Goal</h2>
+                            <p>The project is a minimalist implementation of a chatbot assistant.</p>
+                            <p>Grounded by context document uploaded for improved accuracy in response.</p>
+                            <a className="work-link" href="https://github.com/tobi-stephen/chatbot-flask-openai" target="blank">Check it out</a>
+                        </div>
+                    </div>
+
+                    <hr className="work-divider"/>
+
+                    <div className="work">
+                        <div className="work-img"></div>
+                        <div className="work-content">
                             <h1 className="work-header">Road condition Sensing</h1>
                             <p className="work-duration">2020</p>
                             <h2>Technology</h2>
@@ -27,54 +106,6 @@ class Work extends Component {
                     <div className="work">
                         <div className="work-img"></div>
                         <div className="work-content">
-                            <h1 className="work-header">Flower Classifier</h1>
-                            <p className="work-duration">2018</p>
-                            <h2>Technology</h2>
-                            <p>Python, PyTorch, Jupyter, OpenCV, Numpy</p>
-                            <h2>Goal</h2>
-                            <p>a project for classifying various types of flowers through deep learning as part of the PyTorch Scholarship Challenge from Facebook</p>
-                            <p>Constructed a model based off of DenseNet121 and attained over 90% accuracy on test set.</p>
-                            <a className="work-link" href="https://github.com/tobi-stephen/flower-classifier" target="blank">Check it out</a>
-                        </div>
-                    </div>
-
-                    <hr className="work-divider"/>
-
-                    <div className="work">
-                        <div className="work-img"></div>
-                        <div className="work-content">
-                            <h1 className="work-header">Convolutional Neural Network for Visual Recognition(CS231n)</h1>
-                            <p className="work-duration">2018</p>
-                            <h2>Technology</h2>
-                            <p>Python, PyTorch, Jupyter, OpenCV, MatPlotLib Numpy</p>
-                            <h2>Goal</h2>
-                            <p>A course from Stanford University led by Computer Vision Expert Fei Fei Li</p>
-                            <p>Worked on several implementation of various neural network models in the assignments notebooks</p>
-                            <p>Including artificial neural network to convolutional neural network, Recurrent Neural Network, Long Short Term Memory, Style Transfer</p>
-                            <a className="work-link" href="https://github.com/tobi-stephen/cs231n-stanford" target="blank">Check it out</a>
-                        </div>
-                    </div>
-
-                    <hr className="work-divider"/>
-
-                    <div className="work">
-                        <div className="work-img"></div>
-                        <div className="work-content">
-                            <h1 className="work-header">GRIT Transactive Grid - Mobile</h1>
-                            <p className="work-duration">2018-present</p>
-                            <h2>Technology</h2>
-                            <p>ReactJS, React Native, Native Base</p>
-                            <h2>Goal</h2>
-                            <p>Create a platform for buying and selling of energy among users of the GRIT smart meters.</p>
-                            <a className="work-link" href="https://play.google.com/store/apps/details?id=com.gtg_native" target="blank">Check it out</a>
-                        </div>
-                    </div>
-
-                    <hr className="work-divider"/>
-
-                    <div className="work">
-                        <div className="work-img"></div>
-                        <div className="work-content">
                             <h1 className="work-header">UBA Admin Portal</h1>
                             <p className="work-duration">2018</p>
                             <h2>Technology</h2>
@@ -82,21 +113,6 @@ class Work extends Component {
                             <h2>Goal</h2>
                             <p>Create a platform for management of UBA rewards platform</p>
                             <a className="work-link" href="https://tobi-stephen.github.io/admin_portal" target="blank">Check it out</a>
-                        </div>
-                    </div>
-
-                    <hr className="work-divider"/>
-
-                    <div className="work">
-                        <div className="work-img"></div>
-                        <div className="work-content">
-                            <h1 className="work-header">3T Impex</h1>
-                            <p className="work-duration">2018-present</p>
-                            <h2>Technology</h2>
-                            <p>Wordpress CMS</p>
-                            <h2>Goal</h2>
-                            <p>Platform for sharing/blogging about import/export business</p>
-                            <a className="work-link" href="http://www.3timpex.com" target="blank">Check it out</a>
                         </div>
                     </div>
 
